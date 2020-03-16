@@ -9,3 +9,13 @@ def my_collect(names)
   end
   return newarray
 end
+
+
+def capitalizez(words)
+counter = 0
+newwords = []
+while i < words.length do
+  newwords << (names[i].upcase
+  i += 1
+end
+end
