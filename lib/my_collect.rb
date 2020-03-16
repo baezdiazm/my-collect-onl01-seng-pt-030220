@@ -7,5 +7,5 @@ def my_collect(names)
     newarray << (names[i].split(" ").first)
     i +=1
   end
-
+return newarray
 end
