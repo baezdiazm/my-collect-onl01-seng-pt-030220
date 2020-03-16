@@ -1,6 +1,6 @@
 names = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
-def collect(names)
+def my_collect(names)
   i=0
   newarray = []
   while i< names.length do
@@ -9,4 +9,4 @@ def collect(names)
   end
   puts newarray
 end
-collect(names)
+my_collect(names)
