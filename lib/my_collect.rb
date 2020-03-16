@@ -4,7 +4,7 @@ def my_collect(students)
   i=0
   newarray = []
   while i< students.length do
-    newarray << (students[i].split(" ").first).upcase
+    newarray << yield(students[i].split(" ").first).upcase
     i +=1
   end
 return newarray
