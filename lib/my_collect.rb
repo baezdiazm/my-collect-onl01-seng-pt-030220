@@ -12,9 +12,9 @@
 
 def my_collect(languages)
   i=0
-  #upcased = []
-  while i< languages.length do |lang|
-    lang.upcase
+  upcased = []
+  while i< languages.length do
+    upcased << languages[i].split(" ").first.upcase
     i +=1
   end
 return upcased
