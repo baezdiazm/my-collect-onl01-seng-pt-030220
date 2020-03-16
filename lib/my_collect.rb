@@ -9,4 +9,4 @@ def my_collect(names)
   end
   return newarray
 end
-my_collect(names).upcase
+my_collect(names)
