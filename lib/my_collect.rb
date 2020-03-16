@@ -4,6 +4,7 @@ def my_collect(array)
   i=0
   students = []
   languages = []
+  newarray= []
   while i< students.length do
     newarray << (students[i].split(" ").first)
     i +=1
