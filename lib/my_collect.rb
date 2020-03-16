@@ -6,12 +6,12 @@ def my_collect(array)
   languages = []
   newarray= []
 yield( while i< array.length do
-    newarray << (students[i].split(" ").first)
+    students << (students[i].split(" ").first)
     i +=1
   end)
 
   yield ( while i< array.length do
-      newarray << (languages[i].split(" ").first).upcase
+      languages << (languages[i].split(" ").first).upcase
       i +=1
     end)
 return newarray
