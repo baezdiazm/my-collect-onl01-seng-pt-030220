@@ -14,7 +14,7 @@ def my_collect(languages)
   i=0
   upcased = []
   while i< languages.length do
-    upcased << languages[i].split(" ").first.upcase.downcase
+    upcased << languages[i].split(" ").first
     i +=1
   end
 return upcased
