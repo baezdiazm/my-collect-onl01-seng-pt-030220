@@ -1,10 +1,10 @@
 names = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 
-def my_collect(names)
+def my_collect(students)
   i=0
   newarray = []
-  while i< names.length do
-    newarray << (names[i].split(" ").first)
+  while i< students.length do
+    newarray << (students[i].split(" ").first)
     i +=1
   end
 return newarray
