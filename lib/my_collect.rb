@@ -1,10 +1,11 @@
 #
 
-def my_collect(students)
+def my_collect(array)
   i=0
-  newarray = []
+  students = []
+  languages = []
   while i< students.length do
-    newarray << yield(students[i].split(" ").first).upcase
+    newarray << (students[i].split(" ").first)
     i +=1
   end
 return newarray
