@@ -4,7 +4,7 @@ def my_collect(names)
   i=0
   newarray = []
   while i< names.length do
-    newarray << names[i].split(" ").first
+    newarray << (names[i].split(" ").first).upcase
     i +=1
   end
   return newarray
