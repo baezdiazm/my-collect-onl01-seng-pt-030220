@@ -18,4 +18,5 @@ while i < languages.length do
   newwords << (languages[i]).upcase
   i += 1
 end
+newwords
 end
