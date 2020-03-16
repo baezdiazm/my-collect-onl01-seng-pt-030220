@@ -14,7 +14,7 @@ def my_collect(languages)
   i=0
   upcased = []
   while i< languages.length do
-    |language|   upcased << languages[i].upcase
+    {|language|   upcased << languages[i].upcase} end
     i +=1
   end
 return upcased
