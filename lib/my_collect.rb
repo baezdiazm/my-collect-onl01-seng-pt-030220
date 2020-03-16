@@ -7,16 +7,5 @@ def my_collect(names)
     newarray << (names[i].split(" ").first)
     i +=1
   end
-  return newarray
-end
 
-
-def capitalizez(languages)
-counter = 0
-newwords = []
-while i < languages.length do
-  newwords << (languages[i]).upcase
-  i += 1
-end
-newwords
 end
