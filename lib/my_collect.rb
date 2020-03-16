@@ -15,7 +15,7 @@ def capitalizez(words)
 counter = 0
 newwords = []
 while i < words.length do
-  newwords << (words[i].split(" ").first).upcase
+  newwords << (words[i]).upcase
   i += 1
 end
 end
