@@ -7,6 +7,6 @@ def my_collect(names)
     newarray << names[i].split(" ").first
     i +=1
   end
-  puts newarray
+  return newarray
 end
 my_collect(names)
