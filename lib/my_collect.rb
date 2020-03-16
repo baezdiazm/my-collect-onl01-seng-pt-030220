@@ -12,7 +12,7 @@
 
 def my_collect(languages)
   i=0
-  upcased = []
+  #upcased = []
   while i< languages.length do |lang|
     lang.upcase
     i +=1
