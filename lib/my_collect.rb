@@ -11,11 +11,11 @@ def my_collect(names)
 end
 
 
-def capitalizez(words)
+def capitalizez(languages)
 counter = 0
 newwords = []
-while i < words.length do
-  newwords << (words[i]).upcase
+while i < languages.length do
+  newwords << (languages[i]).upcase
   i += 1
 end
 end
