@@ -14,7 +14,7 @@ yield( while i< array.length do
       languages << (array[i].split(" ").first).upcase
       i +=1
     end)
-return newarray
+return students+languages
 end
 
 # def my_collect(languages)
